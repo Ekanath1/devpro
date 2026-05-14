@@ -2,9 +2,9 @@
 inventory = {}
 
 while True:
-    item = input("Enter item or type done to exit ").lower()
+    item = input("Enter item or type done to exit ").capitalize()
 
-    if item == 'done':
+    if item == 'Done':
         break
 
     qty = input(f"Enter quantity {item} ").capitalize()
